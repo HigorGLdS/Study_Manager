@@ -74,6 +74,28 @@ Atualização de gráficos sem perda de estado
 
 Código preparado para expansão futura
 
+## 🖥️ Instalação (Windows)
+
+Este projeto possui uma versão empacotada em `.exe`, não sendo necessário instalar Python.
+
+### 📦 Requisitos
+- Windows 10 ou superior
+
+### ▶️ Como executar
+1. Baixe o arquivo `StudyManager.exe`
+2. Execute com duplo clique
+3. O aplicativo criará automaticamente seus dados em:
+C:\Users<seu-usuario>\AppData\Roaming\StudyManager
+
+
+### 💾 Persistência de dados
+- O banco de dados SQLite é criado automaticamente na primeira execução
+- Os dados permanecem salvos mesmo após fechar ou atualizar o aplicativo
+
+### ⚠️ Observação
+- Alguns antivírus podem exibir alertas por se tratar de um executável gerado localmente
+- O código-fonte está disponível neste repositório para verificação
+
 📈 Roadmap
 
 📤 Exportação CSV / PDF

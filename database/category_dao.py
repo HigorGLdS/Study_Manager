@@ -4,8 +4,7 @@ from utils.path import get_database_path
 
 class CategoryDAO:
     def __init__(self):
-        self.conn = sqlite3.connect(get_database_path())
-        self.conn.row_factory = sqlite3.Row
+        self.db_path = get_database_path()
 
     def _connect(self):
         conn = sqlite3.connect(self.db_path)
